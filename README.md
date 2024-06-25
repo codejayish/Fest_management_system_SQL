@@ -1,10 +1,9 @@
 # Fest_management_system_SQL
 
 ```bash
-This is the repository for the Fest Management system using PostgreSQL as the database and 
-Node.js as the backend server and React.js as the frontend.
-
-Used SQL queries to interact with the database and fetch the data.
+ This repository contains code for Fest Mangement System implemented using PERN stack.
+ i.e Postgres SQL, Express, React, Node.js.
+ Used SQL queries to interact with the database, Implemented 'triggers' for better usability of database.
 ```
 
 ## clone the repository:
@@ -17,11 +16,11 @@ npm install
 ```
 ## Run the server:
 ```bash
-1. navigate to backend folder
+1. navigate to backend folder(routes here)
 2. run the command: npm start
 ```
 ## Run the client:
 ```bash
-1. navigate to frontend folder
+1. navigate to frontend folder(react-app here)
 2. run the command: npm start
 ```
