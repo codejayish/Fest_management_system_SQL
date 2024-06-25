@@ -1,6 +1,11 @@
 # Fest_management_system_SQL
-### This is the repository for the Fest Management system using PostgreSQL as the database and Node.js as the backend server and React.js as the frontend.
-### Used SQL queries to interact with the database and fetch the data.
+
+```bash
+This is the repository for the Fest Management system using PostgreSQL as the database and 
+Node.js as the backend server and React.js as the frontend.
+
+Used SQL queries to interact with the database and fetch the data.
+```
 
 ## clone the repository:
 ```bash
