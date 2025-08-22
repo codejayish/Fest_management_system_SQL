@@ -11,7 +11,7 @@ const StudentLogin = () => {
     });
 
     useEffect(() => {
-        // Load external stylesheets and fonts dynamically
+        // Load the external stylesheets and fonts dynamically
         const preconnectLink = document.createElement('link');
         preconnectLink.href = 'https://fonts.gstatic.com/';
         preconnectLink.rel = 'preconnect';
