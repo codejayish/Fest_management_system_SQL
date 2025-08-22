@@ -37,7 +37,7 @@ const AdminAddStudent = () => {
 
       const data = await response.json();
       
-      // Check response message
+      // Check the response message
       if (data.message === 'Student added successfully') {
         alert('Student added successfully!');
         navigate('/Admin/AfterLogin');
