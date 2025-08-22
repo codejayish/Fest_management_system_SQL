@@ -27,7 +27,7 @@ const route_ext_after_login = require('./routes/ext_routes/ExtAfterLogin');
 const route_ext_after_login_particiapte_event = require('./routes/ext_routes/ParticipateEvent');
 const route_ext_after_login_event_winners = require('./routes/ext_routes/EventWinners');
 
-// sathya
+// Prajay
 
 // admin pages
 // const routes1 = require('./routes/AdminLogin');
@@ -45,7 +45,7 @@ const routes10 = require('./routes/organiser_routes/OrganiserEvent');
 const routes11 = require('./routes/organiser_routes/OrganiserParticipants');
 const routes12 = require('./routes/organiser_routes/OrganiserVolunteers');
 
-// sathya
+// Prajay
 
 
 const cors = require('cors');
@@ -78,7 +78,7 @@ app.use('/ext/afterlogin',route_ext_after_login);
 app.use('/ext/afterlogin/participate_event',route_ext_after_login_particiapte_event);
 app.use('/ext/afterlogin/event_winners', route_ext_after_login_event_winners);
 
-// sathya
+// Prajay
 
 // admin pages
 // app.use('/api/login', routes1);
@@ -96,7 +96,7 @@ app.use('/api5', routes10);
 app.use('/api6', routes11);
 app.use('/api7', routes12);
 
-// sathya
+// Prajay
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
